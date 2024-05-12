@@ -4,11 +4,30 @@
 
     > h3{
         margin: 0;
+
+    }
+    
+    .master-header{
+        color: cadetblue;
+    }
+
+    .player-header{
+        color: orangered;;
     }
 
     > p{
         margin: 0;
         font-size: large;
 
-    }    
+        
+    }
+    .master-content{
+        color: dimgray;
+    }
+
+    .player-content{
+        color: coral;
+    }
+
+
 }

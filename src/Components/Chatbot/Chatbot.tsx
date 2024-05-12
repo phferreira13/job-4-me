@@ -121,7 +121,7 @@ function Chatbot() {
                     messages.map((message, index) => {
                         return (
                             <ListItem key={index} className={!message.isBot ? 'response' : ''}>
-                                <Message user={message.userName!} message={message.content}></Message>
+                                <Message user={message.userName!} message={message.content} isBot={message.isBot}></Message>
                             </ListItem>
                         );
                     })

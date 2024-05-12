@@ -16,7 +16,7 @@ export class ChatbotModel{
         temperature: 0.8,
         topK: 0,
         topP: 0.95,
-        maxOutputTokens: 32000,
+        maxOutputTokens: 10000,
     }
     constructor(
         public modelName: string
