@@ -54,9 +54,11 @@ function Chatbot() {
         }
         if(message.messageType === MessageType.Continue){
             return (
-                <Button variant="contained" size="large" onClick={() => sendMessage('Continuar')}>Continuar</Button>
-            )
-        }
+                    !hideButton 
+                    ? <Button variant="contained" size="large" onClick={() => sendMessage('Continuar')}>Continuar</Button>
+                    : <p>Carregando...</p>
+                )            
+        }   
         else if(message.messageType === MessageType.SetName){
             return (
                 <Fragment>
