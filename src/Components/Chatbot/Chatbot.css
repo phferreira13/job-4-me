@@ -1,0 +1,21 @@
+.chat{
+    background-color: darkslateblue;
+    width: 80vw;
+    height: 50vw;
+    border-radius: 40px;
+}
+
+.messages{
+    background-color: thistle;
+    width: 95%;
+    height: 60%;
+    /* text-align: center; */
+    margin: 2vw;
+    border-radius: 30px;
+    overflow: auto;
+
+    .response{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
